@@ -1,12 +1,10 @@
-# House Prices in King County, Washington
+# Energy Measurement and Cloud Storage With a FiPy Board
 #### *Moises Daniel Garcia Rojas*
-#### *June 10, 2019*
+#### *October 29, 2019*
 
-## Introduction
+## Project Overview
 
-Economic theory tells us that house prices are based on a variety of features. The file (kc house data.csv) contains a data set with house sale prices for homes in King County, Washington that were sold between May 2014 and May 2015. King County has its seat in Seattle and it is the most populous county in Washington, and the 13th-most populous in the United States.
-
-The data set comprises 19 different features. The general goal is to predict house prices (price) using all the available predictors, except the case identifying information (i.e. id, date).
+The FiPy board is interfaced with a PZEM-004T-100A(V3.0) sensor. The interaction of the two monitors energy variables, which then are uploaded to the Pybytes platform to store and visualize the data.
 
 
 ### Data Overview
