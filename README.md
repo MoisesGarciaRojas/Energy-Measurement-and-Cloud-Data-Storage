@@ -20,8 +20,8 @@ The FiPy board is interfaced with a PZEM-004T-100A(V3.0) sensor. The interaction
 
 ### Files description
 
-* CRC16.py: A module to perform Cyclic Redundancy Test of 16 bits on the data received from the PZEM-004T-100A(V3.0) sensor
-* PZEM_100A_v3.py: Module whith methods to interact with the PZEM-004T-100A(V3.0) sensor through RS-232
+* CRC16.py: A module to perform Cyclic Redundancy Test of 16 bits on the data received from the PZEM-004T-100A(V3.0) sensor (the generator polynomial and the seed value can be modified to match other applications)
+* PZEM_100A_v3.py: Module whith methods to interact with the PZEM-004T-100A(V3.0) sensor through RS-232 (This module is intended to provide simple communication functionalities between the FiPy board and the PZEM sensor, and are enough for the current project. If more complex interactions are required the user must modifiy the code)
 * boot.py: Empty file which is required by the device to work properly (it should contain a script to boot the device in case de boot-GPIO is in use)
 * main.py: main script that interacts with the PZEM-004T-100A(V3.0) sensor
 * README.md: General explanation of the project
